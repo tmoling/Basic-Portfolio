@@ -99,14 +99,14 @@ h1 {
 	}
 
 /*
-commands as explained above.
+commands as explained above. clear works in conjunction with float. use it so things won't wrap around something that is floated. doesn't seem to be needed here, however. hmmmmm...
 */
 footer {
 	background-color: #ebebeb;
 	margin: 8px 100px 8px 100px;
 	padding-top: 25px;
-	padding-bottom: 25px;
-    
+    padding-bottom: 25px;
+    clear: both;
     }
     
 
